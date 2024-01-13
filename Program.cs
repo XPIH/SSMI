@@ -208,7 +208,7 @@ namespace Survarium_Simple_Importer
 				
 					model.UV[i].X = readHalf(reader);				
 					model.UV[i].Y = -readHalf(reader);
-					// Автоисправление UV
+					// Автовиправлення UV
 					if(model.UV[i].X < 0.0f) model.UV[i].X += 1.0f; 
 					if(model.UV[i].Y < 0.0f) model.UV[i].Y += 1.0f; 
 				}
